@@ -40,6 +40,19 @@
     {
       "type": "package",
       "package": {
+        "name": "koodimonni-plugin-language/bogo-ja",
+        "type": "wordpress-language",
+        "version": "3.9.1",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/translation/plugin/bogo/{%version}/ja.zip",
+          "reference": "master"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
         "name": "koodimonni-plugin-language/breadcrumb-navxt-ja",
         "type": "wordpress-language",
         "version": "7.3.1",
@@ -171,6 +184,7 @@
     "ffraenz/private-composer-installer": "*",
     "humanmade/s3-uploads": "^3.0",
     "koodimonni-language/core-ja": "*",
+    "koodimonni-plugin-language/bogo-ja": "*",
     "koodimonni-plugin-language/breadcrumb-navxt-ja": "*",
     "koodimonni-plugin-language/classic-editor-ja": "*",
     "koodimonni-plugin-language/contact-form-7-ja": "*",
@@ -191,6 +205,7 @@
     "vlucas/phpdotenv": "^5.5",
     "wpackagist-plugin/adminimize": "*",
     "wpackagist-plugin/amazon-s3-and-cloudfront": "*",
+    "wpackagist-plugin/bogo": "*",
     "wpackagist-plugin/breadcrumb-navxt": "*",
     "wpackagist-plugin/classic-editor": "*",
     "wpackagist-plugin/contact-form-7": "*",
@@ -203,8 +218,8 @@
     "wpackagist-plugin/limit-login-attempts-reloaded": "*",
     "wpackagist-plugin/mw-wp-form": "5.0.4",
     "wpackagist-plugin/my-calendar": "3.5.20",
-    "wpackagist-plugin/recaptcha-for-mw-wp-form": "*",
     "wpackagist-plugin/post-types-order": "*",
+    "wpackagist-plugin/recaptcha-for-mw-wp-form": "*",
     "wpackagist-plugin/reusable-blocks-extended": "*",
     "wpackagist-plugin/seo-simple-pack": "*",
     "wpackagist-plugin/show-current-template": "*",

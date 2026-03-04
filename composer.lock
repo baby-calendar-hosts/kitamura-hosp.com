@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c3a7cdda1e21b5b43e68577e1bf87bd7",
+    "content-hash": "b9c04f5fac2272171b399f61ebe5d03e",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -827,6 +827,16 @@
                 "core",
                 "ja"
             ]
+        },
+        {
+            "name": "koodimonni-plugin-language/bogo-ja",
+            "version": "3.9.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/bogo/{%version}/ja.zip",
+                "reference": "master"
+            },
+            "type": "wordpress-language"
         },
         {
             "name": "koodimonni-plugin-language/breadcrumb-navxt-ja",
@@ -2208,6 +2218,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/amazon-s3-and-cloudfront/"
+        },
+        {
+            "name": "wpackagist-plugin/bogo",
+            "version": "3.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bogo/",
+                "reference": "tags/3.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bogo.3.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bogo/"
         },
         {
             "name": "wpackagist-plugin/breadcrumb-navxt",
@@ -3650,5 +3678,5 @@
     "platform-overrides": {
         "php": "7.4.33"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
